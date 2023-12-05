@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 ### Added
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Added relabel node functionality to dropout_node ([#524](https://github.com/pyg-team/pytorch_geometric/pull/8524))
 =======
 - Added the `NDCG@k` metric for link-prediction ([#8326](https://github.com/pyg-team/pytorch_geometric/pull/8326))
 - Added relabel node functionality to `dropout_node` ([#8524](https://github.com/pyg-team/pytorch_geometric/pull/8524))
 >>>>>>> upstream/master
+=======
+- Added relabel node functionality to `dropout_node` ([#8524](https://github.com/pyg-team/pytorch_geometric/pull/8524))
+>>>>>>> fbfe532abeb34f2e30f511599ded4adefe5f3d11
 - Added support for type checking via `mypy` ([#8254](https://github.com/pyg-team/pytorch_geometric/pull/8254))
 - Added support for link-prediction retrieval metrics ([#8499](https://github.com/pyg-team/pytorch_geometric/pull/8499))
 - Added METIS partitioning with CSC/CSR format selection in `ClusterData` ([#8438](https://github.com/pyg-team/pytorch_geometric/pull/8438))

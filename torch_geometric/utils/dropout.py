@@ -91,10 +91,13 @@ def dropout_adj(
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def dropout_node(edge_index: Tensor, p: float = 0.5,
                  num_nodes: Optional[int] = None, relabel_nodes: bool = False,
                  training: bool = True) -> Tuple[Tensor, Tensor, Tensor]:
 =======
+=======
+>>>>>>> fbfe532abeb34f2e30f511599ded4adefe5f3d11
 def dropout_node(
     edge_index: Tensor,
     p: float = 0.5,
@@ -102,7 +105,10 @@ def dropout_node(
     training: bool = True,
     relabel_nodes: bool = False,
 ) -> Tuple[Tensor, Tensor, Tensor]:
+<<<<<<< HEAD
 >>>>>>> upstream/master
+=======
+>>>>>>> fbfe532abeb34f2e30f511599ded4adefe5f3d11
     r"""Randomly drops nodes from the adjacency matrix
     :obj:`edge_index` with probability :obj:`p` using samples from
     a Bernoulli distribution.
@@ -116,9 +122,6 @@ def dropout_node(
         p (float, optional): Dropout probability. (default: :obj:`0.5`)
         num_nodes (int, optional): The number of nodes, *i.e.*
             :obj:`max_val + 1` of :attr:`edge_index`. (default: :obj:`None`)
-        relabel_nodes (bool, optional): If set to `True`, the resulting
-            `edge_index` will be relabeled to hold consecutive indices 
-            starting from zero.
         training (bool, optional): If set to :obj:`False`, this operation is a
             no-op. (default: :obj:`True`)
         relabel_nodes (bool, optional): If set to `True`, the resulting
